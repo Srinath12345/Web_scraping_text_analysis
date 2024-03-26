@@ -1,0 +1,33 @@
+Approach:
+
+1. Scraping the required data using beautiful soup
+2. Getting all required data for processing of the web content including
+	. stop words
+	. positive and negative dictionaries
+3. analysing the extracted content using pyspark RDDs
+4. performing the required data transforms using map and filter functions 
+5. storing the obtained data on a csv file 
+
+NOTE : input.xlsx has been saved as input.csv for convenience
+	. open input.xlsx 
+	. file - save_as - extention - .csv
+
+Running the code:
+
+1. open the project directory using preferred code editor (I used spyder)
+2. run the main.py file 
+
+NOTE : delete the output.csv file before running main.py since rows will get appended again, 
+       added the said output.csv file for pre-reference of output data.
+
+Dependencies Required:
+
+1. pyspark
+2. beautifulsoup(bs4)
+3. nltk
+4. python 3.11 (preferred version)
+5. JDK 8 or above (kindly check compatibility with the spark version)
+
+NOTE: Kindly install all the required dependencies before running the code 
+
+
